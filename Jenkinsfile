@@ -37,14 +37,14 @@ pipeline{
             }
 }
         stage('install'){
-            agent { label 'lokesh' }
+            agent { label 'manju' }
             steps{
                 sh 'sleep 5'
                 echo 'install'
             }
         }
         stage('deploy'){
-            agent { label 'lokesh' }
+            agent { label 'manju' }
             steps{
                 sh 'sleep 5'
                 echo 'deploy'
