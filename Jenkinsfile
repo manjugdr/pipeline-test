@@ -1,7 +1,7 @@
 pipeline{
     agent none
     stages{
-                stage('Validate'){
+                stage('This is Validate staage'){
                     agent { label 'lokesh' }
             steps{
                 sh 'sleep 5'
